@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nCase – Problem Slides</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #111; color: #fff; }
+
+  .slide {
+    width: 1456px;
+    height: 819px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1C102B 0%, #251539 60%, #2E1A47 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 96px;
+    margin-bottom: 4px;
+  }
+
+  .wave {
+    position: absolute;
+    top: -120px; right: -80px;
+    width: 50%; height: 55%;
+    opacity: 0.07;
+    pointer-events: none;
+  }
+  .wave svg { width: 100%; height: 100%; }
+
+  .logo {
+    position: absolute;
+    top: 36px;
+    left: 60px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #E8E5EC;
+    letter-spacing: -0.5px;
+  }
+  .logo .dim { color: #ABA3B5; font-weight: 400; }
+  .logo .sub {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #827691;
+    margin-left: 3px;
+  }
+
+  .tag {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #827691;
+    margin-bottom: 28px;
+  }
+
+  /* The headline is a paragraph with mixed inline sizes */
+  .headline {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.55;
+    color: #827691;
+    margin-bottom: 32px;
+  }
+
+  .headline .wh  { color: #D5D1DA; }
+  .headline .mid { color: #ABA3B5; }
+
+  /* Inline stat — larger, golden, baseline-aligned */
+  .headline .stat {
+    font-size: 110px;
+    font-weight: 900;
+    color: #E8C547;
+    line-height: 1;
+    letter-spacing: -2px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin: 0 18px;
+  }
+
+  .divider {
+    width: 50px;
+    height: 3px;
+    background: #E8C547;
+    border-radius: 2px;
+  }
+
+  .callout {
+    position: absolute;
+    bottom: 56px;
+    left: 96px;
+    right: 96px;
+    background: rgba(28,16,43,0.7);
+    border: 1px solid rgba(171,163,181,0.18);
+    border-radius: 10px;
+    padding: 20px 36px;
+    font-size: 28px;
+    color: #ABA3B5;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .callout .ac { color: #E8C547; font-weight: 700; }
+  .callout .wh { color: #E8E5EC; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: #1 cause of death -->
+<div class="slide">
+  <div class="wave"><svg viewBox="0 0 600 400" fill="none"><path d="M0 200 Q150 80 300 200 T600 200 V0 H0Z" fill="white"/><path d="M0 280 Q150 160 300 280 T600 280 V0 H0Z" fill="white" opacity="0.5"/></svg></div>
+  <div class="headline">
+    <span class="wh">Opioid overdoses</span> are the<span class="stat">#1</span>cause of death<br>for Americans ages 18–45.
+  </div>
+  <div class="divider"></div>
+</div>
+
+<!-- SLIDE 2: 93% effective -->
+<div class="slide">
+  <div class="wave"><svg viewBox="0 0 600 400" fill="none"><path d="M0 200 Q150 80 300 200 T600 200 V0 H0Z" fill="white"/><path d="M0 280 Q150 160 300 280 T600 280 V0 H0Z" fill="white" opacity="0.5"/></svg></div>
+  <div class="headline">
+    <span class="wh">Naloxone</span> is<span class="stat">93%</span>effective<br>at reversing an overdose.
+  </div>
+  <div class="divider"></div>
+</div>
+
+<!-- SLIDE 3: 43% bystander -->
+<div class="slide">
+  <div class="wave"><svg viewBox="0 0 600 400" fill="none"><path d="M0 200 Q150 80 300 200 T600 200 V0 H0Z" fill="white"/><path d="M0 280 Q150 160 300 280 T600 280 V0 H0Z" fill="white" opacity="0.5"/></svg></div>
+  <div class="headline">
+    <span class="stat" style="margin-left:0">43%</span>of overdoses occur<br>with a <span class="wh">bystander present.</span>
+  </div>
+  <div class="divider"></div>
+</div>
+
+<!-- SLIDE 4: 90% don't carry -->
+<div class="slide">
+  <div class="wave"><svg viewBox="0 0 600 400" fill="none"><path d="M0 200 Q150 80 300 200 T600 200 V0 H0Z" fill="white"/><path d="M0 280 Q150 160 300 280 T600 280 V0 H0Z" fill="white" opacity="0.5"/></svg></div>
+  <div class="headline">
+    <span class="stat" style="margin-left:0">90%</span>of naloxone owners<br><span class="wh">don't carry it</span> with them.
+  </div>
+  <div class="divider"></div>
+
+  <div class="callout">
+    The gap isn't access – it's <span class="ac">carriage</span>. We bridge the distance between <span class="wh">owning naloxone</span> and <span class="wh">having it when it counts</span>.
+  </div>
+</div>
+
+</body>
+</html>
